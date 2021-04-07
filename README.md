@@ -16,10 +16,12 @@
     <img src="https://m8r0wn.com/posts/2021/01/crosslinked.png" style="max-width:400px;">
 </p>
 
-CrossLinked is a LinkedIn enumeration tool that uses search engine scraping to collect valid employee names of a target 
-organization. It does this without API keys, credentials, or even accessing the site directly.
+CrossLinked is a LinkedIn enumeration tool that uses search engine scraping to collect valid employee names from a target 
+organization. This technique provides accurate results without the use of API keys, credentials, or even accessing 
+the site directly. Formats can then be applied in the command line arguments to turn these names into email addresses, 
+domain accounts, and more.
 
-For a full break-down of the tool and example output, checkout:<br>
+For a full breakdown of the tool and example output, checkout:<br>
 <a href="https://m8r0wn.com/posts/2021/01/crosslinked.html">https://m8r0wn.com/posts/2021/01/crosslinked.html </a>
 
 ## Setup
@@ -64,3 +66,13 @@ Proxy arguments:
   --proxy PROXY       Proxy requests (IP:Port)
   --proxy-file PROXY  Load proxies from file for rotation
 ```
+
+## Proxy Support
+The latest version of CrossLinked provides proxy support through the <a href='https://github.com/m8r0wn/taser'>Taser</a>
+library. Users can mask their traffic with a single proxy by adding ```--proxy 127.0.0.1:8080``` to the command line 
+arguments, or use ```--proxy-file proxies.txt``` for rotating source addresses.
+
+```http/https``` proxies can be added in ```IP:PORT``` notation, while SOCKS requires a ```socks4://``` or 
+```socks5://``` prefix.
+
+

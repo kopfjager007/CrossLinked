@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Author: @m8r0wn
+# Author: m8r0wn
+# License: GPLv3
 
 import argparse
 from os import path

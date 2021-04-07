@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Author: @m8r0wn
+# Author: m8r0wn
+# License: GPLv3
 
 # Output file location/name.txt
 outfile = 'passwords.txt'
@@ -11,8 +12,8 @@ base = ['guest', 'password', 'welcome', 'admin', 'administrator', 'fall', 'winte
 prepend_chars = ['!', '#', '$', '@', '1']
 
 # Append lowercase words, numbers, symbols, etc
-append_chars = ['!', '#', '$', '@', '1', '2', '3', '00', '01', '#1', '19', '!19', '2019', '2019!', '#2019', '!2019',
-                '123', '19!', '!!', '69', '666', '2018', '2018!']
+append_chars = ['!', '#', '$', '@', '1', '01', '00', '#1', '21', '!21', '21!', '2021', '2021!', '#2021',
+                '123', '123!', '!!', '69', '666', '1!']
 
 # Combine select words with base words (welcome2company)
 combine = ['welcome', 'guest', 'admin', 'password']
@@ -156,7 +157,6 @@ def main():
 
     print('[*] Removing potential duplicates...')
     basemod = list(set(basemod))
-
     print('[*] {} Unique words created'.format(str(len(basemod))))
     print('[*] Writing to {}'.format(outfile))
 

@@ -54,7 +54,7 @@ optional arguments:
   -v                  Show names and titles recovered after enumeration
 
 Search arguments:
-  -H HEADER           Add Header ('name1=value1;name2=value2')
+  -H HEADER           Add Header ('name1=value1;name2=value2;')
   --search ENGINE     Search Engine (Default='google,bing')
   --safe              Only parse names with company in title (Reduces false positives)
 

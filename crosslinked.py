@@ -200,7 +200,7 @@ if __name__ == '__main__':
     args.add_argument(dest='company_name', nargs='?', help='Target company name')
 
     s = args.add_argument_group("Search arguments")
-    s.add_argument('-H', dest='header', type=str, default='', help='Add Header (\'name1=value1;name2=value2\')')
+    s.add_argument('-H', dest='header', type=str, default='', help='Add Header (\'name1=value1;name2=value2;\')')
     s.add_argument('--search', dest='engine', type=str, default='google,bing',help='Search Engine (Default=\'google,bing\')')
     s.add_argument("--safe", dest="safe", action='store_true',help="Only parse names with company in title (Reduces false positives)")
 

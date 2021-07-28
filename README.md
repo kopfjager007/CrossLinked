@@ -12,17 +12,10 @@
     </a>&nbsp;
  </p>
 
-<p align="center">
-    <img src="https://m8r0wn.com/posts/2021/01/crosslinked.png" style="max-width:400px;">
-</p>
-
 CrossLinked is a LinkedIn enumeration tool that uses search engine scraping to collect valid employee names from a target 
 organization. This technique provides accurate results without the use of API keys, credentials, or even accessing 
 the site directly. Formats can then be applied in the command line arguments to turn these names into email addresses, 
 domain accounts, and more.
-
-For a full breakdown of the tool and example output, checkout:<br>
-<a href="https://m8r0wn.com/posts/2021/01/crosslinked.html">https://m8r0wn.com/posts/2021/01/crosslinked.html </a>
 
 ## Setup
 ```bash

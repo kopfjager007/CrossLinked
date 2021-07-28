@@ -1,6 +1,6 @@
 # CrossLinked
 <p align="center">
-    <img src="https://img.shields.io/badge/License-GPL%20v3.0-green?style=plastic"/>
+    <img src="https://img.shields.io/badge/License-GPL%20v3.0-green?style=plastic"/>&nbsp;
     <a href="https://www.twitter.com/m8r0wn">
         <img src="https://img.shields.io/badge/Twitter-@m8r0wn-blue?style=plastic&logo=twitter"/>
     </a>&nbsp;

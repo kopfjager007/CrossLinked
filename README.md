@@ -5,7 +5,7 @@
         <img src="https://img.shields.io/badge/Twitter-@m8r0wn-blue?style=plastic&logo=twitter"/>
     </a>&nbsp;
     <a href="https://github.com/sponsors/m8r0wn">
-        <img src="https://img.shields.io/badge/Sponsor-GitHub-green?style=plastic&logo=github"/>
+        <img src="https://img.shields.io/badge/Sponsor-GitHub-red?style=plastic&logo=github"/>
     </a>&nbsp;
  </p>
 

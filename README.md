@@ -18,7 +18,7 @@ domain accounts, and more.
 
 ## Setup
 ```bash
-git clone https://github.com/m8r0wn/crosslinked
+git clone https://github.com/m8sec/crosslinked
 cd crosslinked
 pip3 install -r requirements.txt
 ```

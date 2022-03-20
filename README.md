@@ -6,9 +6,7 @@
     </a>&nbsp;
     <a href="https://github.com/sponsors/m8sec">
         <img src="https://img.shields.io/badge/Sponsor-GitHub-red?style=plastic&logo=github"/>
-    </a>
-    <br><br>
-    <img src="https://user-images.githubusercontent.com/13889819/127380742-da80159d-48b6-4815-a28e-403527772174.png">
+    </a>&nbsp;
  </p>
 
 CrossLinked is a LinkedIn enumeration tool that uses search engine scraping to collect valid employee names from a target 
